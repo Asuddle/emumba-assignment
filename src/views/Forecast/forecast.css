@@ -1,0 +1,166 @@
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0px;
+}
+
+.top-grid {
+	min-height: 100vh !important;
+}
+
+.forecast-wrapper {
+	border-radius: 16px;
+	margin: 24px;
+	padding: 12px;
+	min-height: 500px;
+	background: #f1f3f5;
+}
+
+.forecast-wrapper h2 {
+	color: #dcdcdc;
+}
+
+.forecast-wrapper .city-card {
+	border: 1px solid #335080;
+	border-radius: 8px;
+	min-width: 200px;
+	cursor: pointer;
+	text-align: left;
+	padding: 16px;
+}
+.forecast-wrapper .city-card:hover {
+	color: black !important;
+}
+
+.forecast-wrapper .city-card:hover {
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+		rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.forecast-dialog {
+	padding: 16px;
+	background-color: #335080 !important;
+	border-radius: 16px !important;
+	color: white !important;
+}
+.forecast-dialog p {
+	color: white !important;
+}
+.forecast-dialog .internal-wrapper {
+	display: flex;
+}
+.forecast-dialog .internal-wrapper .temperatureDegreeWrapper {
+	display: inline-flex;
+}
+
+.forecast-dialog .internal-wrapper .temperatureDegreeWrapper .temperature {
+	font-weight: 700 !important;
+	font-size: 52px !important;
+	letter-spacing: -0.03em !important;
+	text-transform: capitalize !important;
+	color: white !important;
+}
+.forecast-dialog .internal-wrapper .temperatureDegreeWrapper .degree {
+	margin-left: 8px !important;
+	font-weight: 700 !important;
+	font-size: 24px !important;
+	margin-bottom: 18px !important;
+}
+.forecast-dialog .internal-wrapper .temperatureDegreeWrapper .degree span {
+	color: #778899;
+	cursor: pointer;
+}
+.forecast-dialog .internal-wrapper .temperatureDegreeWrapper .selectedDegree {
+	color: white !important;
+}
+
+.weather-details-wrapper {
+	display: inline-flex;
+	float: right;
+	margin-left: auto !important;
+}
+.weather-details-wrapper .weather-details {
+	text-align: right;
+}
+
+.weather-vitals-wrapper {
+	display: inline-flex;
+}
+
+.weather-details p {
+	font-size: 16px !important;
+	margin-left: 16px !important;
+	color: #dcdcdc !important;
+}
+
+.graph-wrapper {
+	padding: 12px !important;
+}
+
+.tabsWrapper {
+	color: #dcdcdc !important;
+}
+.tabsWrapper .tab {
+	text-transform: capitalize !important;
+	color: white;
+}
+
+.dayForecastCard {
+	text-align: center;
+	border-radius: 8px !important;
+	padding: 16px !important	;
+	border: 1px solid white;
+}
+
+.chevron {
+	margin-left: 32px;
+	margin-right: 24px;
+	padding: 16px;
+	border-radius: 50px;
+	cursor: pointer;
+}
+.chevron:hover {
+	background-color: #00235c !important;
+}
+
+.lineBreak {
+	width: 100% !important;
+}
+.virtualize-list ul {
+	width: 100px !important;
+}
+@media only screen and (max-width: 600px) {
+	.increase-width-div {
+		width: 300px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.increase-width-div {
+		width: 300px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.increase-width-div {
+		width: 500px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.increase-width-div {
+		width: 700px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.increase-width-div {
+		width: 800px;
+	}
+}
